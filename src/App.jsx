@@ -1,6 +1,7 @@
 import React from "react";
-import ProfileLayout from "./components/ProfileLayout";
-import DetailsLayout from "./components/DetailsLayout";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import ProfileLayout from "./ProfileLayout";
+import DetailsLayout from "./DetailsLayout";
 
 function App() {
   return (
