@@ -1,0 +1,108 @@
+body {
+	display: grid;
+	place-items: center;
+	margin: 80px;
+	height: 100%;
+	background-image: url(https://images.unsplash.com/photo-1641544621714-9c8413f84a4c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-color: rgba(red, green, blue, 0.5);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+hr {
+	border: none;
+	background-color: #a9b2e4;
+	height: 2px;
+}
+
+li {
+	margin: 10px;
+}
+
+h4 {
+	margin: 10px;
+}
+
+p {
+	margin: 10px;
+}
+
+a {
+	margin: 10px;
+}
+
+.text-color {
+	color: #122bb8;
+}
+
+.text-font {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.details-font-size {
+	font-size: small;
+}
+
+.material-symbols-outlined {
+	text-align: center;
+	margin-right: 10px;
+	font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.element-spacing {
+	margin-top: 50px;
+}
+
+.element-indentation {
+	margin-left: 30px;
+}
+
+.additional-details {
+	display: flex;
+	width: 100%;
+}
+
+.additional-text {
+	text-align: right;
+	font-style: italic;
+	color: gray;
+	flex: auto;
+}
+
+.project-spacing {
+	margin-top: 50px;
+}
+
+#avatar {
+	width: 200px;
+	border: 3px solid #122bb8;
+	border-radius: 50%;
+	align-self: center;
+}
+
+#appearance {
+	text-align: center;
+}
+
+#page-layout {
+	display: flex;
+	background-color: azure;
+	padding: 10px;
+	width: 22cm;
+}
+
+#profile-layout {
+	display: flex;
+	background-color: #dce0f4;
+	flex-direction: column;
+	padding: 20px;
+	flex: 40%;
+}
+
+#details-layout {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	flex: 60%;
+}
